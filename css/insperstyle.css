@@ -1,0 +1,13 @@
+.BoJack a img{
+    max-width: 20%;
+}
+
+a img{
+    max-width: 40%;
+    margin: 10px;
+}
+footer img{
+    max-width: 50px;
+}
+
+   

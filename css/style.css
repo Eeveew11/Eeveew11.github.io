@@ -1,0 +1,47 @@
+.drawing img{
+    max-width: 20%;
+    margin: 10px;
+}
+
+body{
+    background-color: grey;
+font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-color: rgb(73, 29, 115);
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    margin: 0px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: darkseagreen;
+    padding: 10px;
+    margin: 0%;
+}
+nav ul a{
+    color:black
+}
+main{
+    font-size: 15px;
+    font-weight: 300;
+}
+footer img{
+    max-width: 50px;
+}
+@media screen and (max-width: 600px){
+    .drawing img{
+        max-width: 40%;
+    }
+    nav ul{
+        display: grid;
+        grid-template-columns: 2, 1fr;
+    }
+    nav ul li{
+        padding: 10px;
+    }
+}

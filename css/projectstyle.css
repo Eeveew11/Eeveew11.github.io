@@ -1,0 +1,11 @@
+.drawing img{
+    max-width: 80%
+}
+
+@media screen and (max-width: 600px){
+    .drawing img{
+        max-width: 70%;
+    }
+
+}
+   
